@@ -1,5 +1,7 @@
 # Lista de Tarefas Java
 
+Uma simples lista com tarefas que podem ser adicionadas, removidas ou marcadas como concluídas.
+
 ## Passo a Passo
 
 ### **1º:** Baixar ou clonar o repo
