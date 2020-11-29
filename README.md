@@ -2,14 +2,14 @@
 
 ## Passo a Passo
 
-### **1º Passo:**
+### **1º:**
 Clone o repo
 
-### **2º Passo:**
-Crie uma database chamada **todoapp**
+### **2º:**
+Crie uma database chamada '**todoapp**'
 
-### **3º Passo:**
+### **3º:**
 Execute a classe 
 
-### **4º Passo:**
+### **4º:**
 Acesse pelo localhost → http://localhost:8080/tarefas
