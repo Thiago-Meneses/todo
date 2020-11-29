@@ -6,7 +6,7 @@ Uma simples lista com tarefas que podem ser adicionadas, removidas ou marcadas c
 
 ### **1º:** Baixar ou clonar o repo
 
-### **2º:** Crie uma database chamada '**todoapp**'
+### **2º:** Crie uma database chamada '**todoapp**' no MySQL
 
 ### **3º:** Execute a classe '**TodoApplication.java**' localizada em src\main\java\com\todo
 
