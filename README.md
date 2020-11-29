@@ -2,7 +2,7 @@
 
 ## Passo a Passo
 
-### **1º:** ### Clone o repo
+### **1º:** Clonar o repo
 
 ### **2º:** Crie uma database chamada '**todoapp**'
 
