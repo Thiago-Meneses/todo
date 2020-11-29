@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" >
+    <head>
+        <title>ToDoApp</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+        <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <header>
+            <nav class="menu">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Lista de Tarefas</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="/tarefas" class="waves-effect waves-light btn"><i class="material-icons left">format_list_bulleted</i>Lista De Tarefas</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <form class="container" method="post">
+            <div class="row">
+                <div class="input-field col s6">
+                    Tarefa:  <input type="text" value="" name="tarefa"/>
+                </div>
+                <div class="input-field col s6">
+                    Descrição: <input type="text" value="" name="descricao"/>
+                </div>
+            </div>
+
+            <button class="waves-effect waves-light btn" type="submit">Salvar</button>
+            <span th:text="${mensagem}"></span><span th:text="${incompleto}"></span>
+        </form>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+</html>
