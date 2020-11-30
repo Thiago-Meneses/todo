@@ -12,3 +12,4 @@ Uma simples lista com tarefas que podem ser adicionadas, removidas ou marcadas c
 
 ### **4º:** Acesse pelo localhost → http://localhost:8080/tarefas
 
+### **JDK 11**
